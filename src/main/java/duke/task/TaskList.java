@@ -97,8 +97,6 @@ public class TaskList {
             }
 
             newTask = new EventTask(descriptionArr[0], descriptionArr[1]);
-        } else {
-            assert false : "Task cannot be added because it is not a todo, deadline or event task.";
         }
 
         if (isReadingFile) {
